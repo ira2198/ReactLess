@@ -1,9 +1,22 @@
-.first-app {
-    text-align: center;
-    background-color: aquamarine;
+.first-app {   
+    background-color: rgba(178, 169, 132, 0.908);
     margin: 0 auto;
-    padding: 2rem;
-    width: 80%;
-    
+    padding: 2rem 9rem;
+    width: 600px;   
+}
 
+.contain{
+    padding: 2rem;
+    background-color: rgba(237, 233, 216, 0.908);
+    border: 2px seagreen solid;
+}
+
+.heder {
+    text-align: center; 
+    font-size: 30px;
+    color: rgb(0, 29, 91);
+}
+.listProd{
+    margin-top: 1rem;
+    font-weight: 600;
 }

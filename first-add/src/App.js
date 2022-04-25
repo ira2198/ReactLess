@@ -13,12 +13,12 @@ function App() {
         { id: 4, title: 'петрушка' }
     ];
 
-    return (  <div className = 'first-app' >
-    <h1 className = 'hello'>Have a good day!</h1>
-    <p className='block'><Message /> </p> 
-    <div> 
-    <Products products={products }/>
-    </div>
+    return (  <div className = 'first-app' > 
+        <div className='contain'>
+            <h1 className = 'heder'>Список покупок</h1>    
+            <div > <Products products={products }/></div>
+            <p className ='goodDay'><Message /> </p> 
+        </div>
     </div>
     )
 
