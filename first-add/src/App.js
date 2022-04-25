@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+import Message from './start/Message.js';
+import Products from './start/ProductsList';
+import ProductItem from './start/productItem';
+     
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+    const  products = [
+        { id: 1, title: 'лимон' },
+        { id: 2, title: 'сметана' },
+        { id: 3, title: 'курица' },
+        { id: 4, title: 'петрушка' }
+    ];
+
+    return (  <div className = 'first-app' >
+    <h1 className = 'hello'>Have a good day!</h1>
+    <p className='block'><Message /> </p> 
+    <div> 
+    <Products products={products }/>
+    </div>
+    </div>
+    )
+
+}
+export default App
