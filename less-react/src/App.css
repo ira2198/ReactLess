@@ -1,0 +1,43 @@
+
+.contain {
+  width: 60%;
+  background-color: rgb(218, 212, 204);
+  padding: 3rem;
+  margin: 0 auto;
+
+}
+.inputBlock{
+  border: 1.5px rgb(129, 115, 115) solid;
+  border-radius: 6px;
+  padding: 8px;
+  width: 280px;
+  margin-bottom: 1rem;
+  margin-right: 20px;
+  font-size: 16px;
+}
+.buttonAdd{
+  padding: 8px;
+  border: 1.5px rgb(72, 52, 52) solid;
+  border-radius: 8px;
+  color: rgb(243, 244, 222);
+  background-color: brown;
+  width: 618px;
+  margin-bottom: 1rem;
+  font-size: 19px;
+}
+.blockTasks {
+  width: 90%;
+  padding-top: 1rem;
+  display: flex;
+  justify-content:space-between;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  font-size: 18px;
+}
+.goodDay{
+  padding-top: 2rem;
+  font-size: 19px;
+  font-weight: 600;
+  margin: 0 auto;
+  width: 40%;
+}
+
