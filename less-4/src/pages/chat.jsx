@@ -40,11 +40,11 @@ function Chat () {
                 </ div>
                 <div className='inputBlock'>  
                      <div className='input'>
-                         < input placeholder="введите сообщение" style={{ width:'600px'}} className='inp' name="messege" value={messege} onChange = {(e)=>setMessege(e.target.value)} />
+                         < textarea placeholder="введите сообщение" style={{ minWidth:'400px', height: "80px"}} className='inp' name="messege" value={messege} onChange = {(e)=>setMessege(e.target.value)} />
                          < input placeholder="введите имя получателя"className='inp' name="name" value={user} onChange = {(e)=>setUser(e.target.value)} />
-                                             
-                    </div>
-                    < button className="addBtn" onClick={addMessege}>Добавить</button>            
+                         < button className="addBtn" onClick={addMessege}>Добавить</button>              
+                    </div>  
+                                          
                       
                  </div>
                 
