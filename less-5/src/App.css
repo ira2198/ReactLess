@@ -1,0 +1,28 @@
+.conteiner{
+  width: 100vw;
+  height: 100vh;
+}
+
+.count {
+  padding: 2rem;
+  text-align: center;
+  width: 40vw;
+  font-size: 60px;
+  font-weight: 700;
+  color: rgb(7, 7, 104);
+  margin: 0 auto;
+}
+.blockBtn{
+  text-align: center;
+  width: 40vw;
+  margin: 0 auto; 
+}
+.btn {
+  min-width: 60px;
+  padding: 6px;
+  font-size: 35px;
+  background-color: rgb(93, 174, 174);
+  color:rgb(7, 7, 104);
+  margin: 1rem;
+  border: none;
+}
