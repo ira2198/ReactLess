@@ -19,7 +19,7 @@ export const todosReduser = ( state = initialState, action) => {
         case GET_TODOS:
             return{
             ...state,
-            todos: action.payload,
+            todos:action.payload,
             loadingNow: false
             }
 

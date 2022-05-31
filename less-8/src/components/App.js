@@ -1,29 +1,38 @@
 import { useEffect } from 'react';
 import {useSelector, useDispatch } from 'react-redux'
 import { loadTodos } from '../redux/reduser/todoReduser';
-import { todoLoading, todosSelector } from '../redux/reduser/todoSelector';
-
-import './App.css';
+import { errorSelector, todoLoading, todosSelector } from '../redux/reduser/todoSelector';
 
 
 function App() {
 
-const todos = useSelector(todosSelector)
-console.log(todos)
-const loading = useSelector(todoLoading)
-const dispatch = useDispatch()
+const todos = useSelector(todosSelector);
+const loading = useSelector(todoLoading);
+const error = useSelector(errorSelector);
+const dispatch = useDispatch();
 
 useEffect(() =>{
   dispatch(loadTodos())
 }, [] )
 
 
+const reboot = () => {
+  dispatch(loadTodos())
+}
+
 if (loading) {
   return (
-  <div> идет загрузка....</div>  
+    <div> идет загрузка...</div>  
  )
 }
 
+if (error) {
+  return (
+    <div> Ошибка загщрузки 
+     <button  onClick = {reboot}>Обновить страницу</button>
+    </div>  
+ )
+}
 
   return (
     <div >
@@ -40,14 +49,3 @@ if (loading) {
 }
 
 export default App;
-
-
-
-// const [todos, setTodos] = useState([])
-
-// useEffect ( () => {
-//   fetch('https://jsonplaceholder.typicode.com/todos')
-//     .then((response) => response.json())
-//     .then((data) => setTodos(data))
-//     .catch((err) => alert(`возникла ошибка ${err.toString()}`))
-// }, [] )
