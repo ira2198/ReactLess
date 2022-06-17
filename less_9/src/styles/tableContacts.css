@@ -1,0 +1,39 @@
+.table {  
+  box-sizing: border-box;
+  padding:  30px;
+}
+.tablePosition {
+    display: grid;
+    grid-template-columns: 100px repeat(4, 300px);
+    grid-template-rows: 50px;
+    align-items: center;  
+    column-gap: 25px;
+}
+.cellTableHeader {
+    color: rgb(5, 5, 53);
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.cellTableBody {
+    font-size: 19px;
+}
+.btn {
+    border: none;
+    border-radius: 3px;
+    margin-right: 2px;
+    width: 97px;
+    height: 40px;
+    font-size: 16px;    
+    font-family:Verdana, Tahoma, sans-serif;
+}
+.btnChange {
+    background-color: rgb(255, 237, 135);
+}
+.btnDelete {
+    background-color: rgb(255, 125, 125);
+}
+.btnView { 
+    background-color: aquamarine;
+}

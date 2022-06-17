@@ -1,0 +1,57 @@
+
+.btnSubmit {
+    box-sizing: border-box;
+    background:  rgb(20, 52, 96);
+    color :beige;
+    height: 50px;
+    width: 60%;
+    font-family:Verdana, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 3px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 2rem;
+}
+.btnBackToRegistr {
+    text-decoration: none;
+    box-sizing: border-box;
+    text-align: center;
+    color:  rgb(45, 51, 61);
+    background: rgb(165, 182, 208);
+    height: 50px;
+    width: 60%;
+    font-family:Verdana, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+   
+}
+
+.btnAddChange {
+    text-decoration: none;
+    box-sizing: border-box;
+    text-align: center;
+    color:  rgb(6, 23, 52);
+    height: 50px;
+    width: 795px;
+    font-family:Verdana, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.btnChangeContact {   
+    background: rgb(255, 237, 135);
+  
+}
+.btnAddContact {
+    
+    background: aquamarine;
+    
+}
