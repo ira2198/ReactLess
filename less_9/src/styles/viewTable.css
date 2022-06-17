@@ -1,0 +1,31 @@
+.tableView {
+    font-size: 25px;
+    box-sizing: border-box;
+    padding: 40px 100px;
+   
+}
+.cellView {
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+p {
+    margin-left: 1rem;
+}
+.btnViewExit {
+    margin-top: 40px;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-align: center;
+    color:  rgb(6, 23, 52);
+    background-color: aquamarine;
+    height: 50px;
+    width: 634px;
+    font-family:Verdana, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+}

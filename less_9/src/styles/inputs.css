@@ -1,0 +1,43 @@
+.inputStart{
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 60%;
+    border: 0;
+    font-size: 18px;
+    padding: 3px 20px;
+    border-radius: 5px;
+
+}   
+
+.formStart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formAdd {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputAdd {
+    box-sizing: border-box;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 700px;
+    border: 0;
+    font-size: 18px;
+    padding: 3px 20px;
+    border-radius: 5px; 
+    margin-left: 30px;
+}
+
+label{
+    color: rgb(5, 5, 53);
+    font-weight: 600;
+    font-size: 23px;
+   
+}
